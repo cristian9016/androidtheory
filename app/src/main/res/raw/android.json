@@ -1,129 +1,152 @@
-{
-    "questions": [
-        {
-            "id": 1,
-            "question": "¿Cuáles son los lenguajes más utilizados en Android?",
-            "answer": "Esta es una de las más sencillas preguntas de la entrevista para desarrolladores de Android, por lo que debes estar preparado con una lista de lenguajes conocidos como Java, Kotlin, C#, Python y Groovy. Para obtener puntos extra, puedes enumerar algunos entornos de desarrollo integrados (IDE) como Eclipse, NetBeans, IntelliJ y Android Studio."
-        },
-        {
-            "id": 2,
-            "question": "¿Cuál es la arquitectura de Android?",
-            "answer": "La arquitectura de Android consta de cinco componentes principales:\n- Aplicaciones\n- Marco de trabajo de Android\n- Tiempo de ejecución de Android\n- Bibliotecas de Plataformas\n- Kernel de Linux"
-        },
-        {
-            "id": 3,
-            "question": "¿Cuáles son los principales componentes del marco de aplicaciones de Android?",
-            "answer": "El marco de trabajo de aplicaciones de Android proporciona las bibliotecas subyacentes que permiten a los desarrolladores utilizar los recursos del dispositivo para la creación de aplicaciones. Para una pregunta en una entrevista, prepárate para explicar algunas clases como activity, service, broadcast receiver y content provider."
-        },
-        {
-            "id": 4,
-            "question": "¿Cuáles son los beneficios y desventajas de Kotlin?",
-            "answer": "Java está establecido y extendido, pero Kotlin sigue creciendo en popularidad. Si le preguntan, utilize esta consulta para mostrar tus conocimientos y habilidades con Kotlin, explicando cómo puede eliminar las NullPointerException (NPE) del código, tiene funciones de desarrollo de aplicaciones multiplataforma y, a menudo, es más legible."
-        },
-        {
-            "id": 5,
-            "question": "¿Cómo se gestionan los permisos en Android?",
-            "answer": "Los permisos de Android controlan la forma en que los usuarios acceden a los datos confidenciales que contienen las aplicaciones. Como desarrollador de Android, su trabajo consiste en limitar el acceso a la información manteniendo la funcionalidad. Enumera algunas prácticas recomendadas para los permisos de Android, como establecer gestores predeterminados o seleccionar SDK de terceros que también tengan permisos limitados."
-        },
-        {
-            "id": 6,
-            "question": "¿Cuáles son los modos de lanzamiento disponibles para la actividad en Android?",
-            "answer": "Los modos de lanzamiento le ayudan a poner en marcha actividades con conjuntos específicos de instrucciones y requisitos de navegación asociados. Hay cuatro modos de lanzamiento a los que deberías referirte si te hacen esta pregunta en una entrevista:\n- Standard\n- SingleTop\n- SingleTask\n- SingleInstance\n\nCada modo de lanzamiento tiene su propio papel a la hora de permitir la navegación a través de cualquier configuración posible, por lo que hay que comparar y contrastar las ventajas e inconvenientes para obtener la máxima puntuación."
-        },
-        {
-            "id": 7,
-            "question": "¿Cuál es la diferencia entre fragmento y actividad?",
-            "answer": "El código de una actividad es mucho más profundo que el de un fragmento. Asegúrate de mencionarle al entrevistador que, debido a la extensión del trabajo, las actividades sólo deben utilizarse para intercambiar pantallas enteras, mientras que los fragmentos se utilizan para todo lo demás. Si es posible, enumera algunos casos de uso en los que casi siempre utilices un fragmento en lugar de una actividad (Por ejemplo: Cuando se utilizan componentes o datos que deben persistir a lo largo de diversas actividades)."
-        },
-        {
-            "id": 8,
-            "question": "¿Cuáles son los ejemplos de patrones de diseño utilizados en las aplicaciones Android?",
-            "answer": "Los patrones de diseño son plantillas reutilizables que resuelven problemas (piense en un código repetitivo). Cuando se le plantee esta pregunta en una entrevista, asegúrese de describir las categorías comunes de patrones de Android (creacionales, estructurales y de comportamiento) y de exponer algunos casos de uso. Gana algunos puntos extra explicando el cómo resolviste un problema de un proyecto anterior con un patrón de diseño."
-        },
-        {
-            "id": 9,
-            "question": "¿Qué tipos de patrones arquitectónicos de aplicaciones Android existen?",
-            "answer": "Los patrones de arquitectura se aplican para estructurar un proyecto y hacerlo modular. Hay tres patrones arquitectónicos principales de Android que los desarrolladores utilizan y que deberías mencionar:\n- MVC (Model — View — Controller)\n- MVP (Model — View — Presenter)\n- MVVM (Model — View — ViewModel)\n\nDado que cada patrón arquitectónico implica una gran cantidad de información, considérelo aun máspara ampliar las preguntas de codificacion que le vayan surgiendo al entrevistador. Ofrezca detalles siempre que sea posible, pero utiliza las preguntas para demostrar tus amplios conocimientos de programación en Android."
-        },
-        {
-            "id": 10,
-            "question": "¿Qué bibliotecas adicionales utiliza en el desarrollo de aplicaciones para Android?",
-            "answer": "Las bibliotecas te permiten aprovechar el trabajo de otros desarrolladores para mejorar el rendimiento a la hora de crear aplicaciones. Hay varias bibliotecas populares de las que puedes hablar (Glide, Retrofit, Picasso, Dagger, Koin), pero aprovecha la oportunidad para explicar la biblioteca que prefieres o que has utilizado en el pasado con gran éxito."
-        },
-        {
-            "id": 11,
-            "question": "¿Qué es PendingIntent en Android?",
-            "answer": "Un PendingIntent pasa una intención futura a una aplicación diferente que realizará la ejecución. Los PendingIntents son una parte crucial del marco de trabajo de Android porque pueden especificar acciones a otra aplicación. Es bueno si su respuesta a esta pregunta de la entrevista sobre codigo en Android toca los detalles de implementación y los nuevos cambios en Android 12 con respecto a la mutabilidad."
-        },
-        {
-            "id": 12,
-            "question": "¿Qué es un proveedor de contenidos en Android?",
-            "answer": "Un proveedor de contenidos controla el acceso a los datos de una aplicación. Otras aplicaciones utilizarán un proveedor de objeto al cliente, creando una interfaz para gestionar la comunicación. Como pregunta de programación, prepárate para explicar cómo accederías a los datos de un proveedor de contenidos, además de proporcionar información sobre la creación de un proveedor de contenidos dentro de tu propia aplicación. Dado que el acceso a los datos puede bloquear un hilo principal, ten en cuenta cómo realizarías las consultas de datos en un hilo independiente."
-        },
-        {
-            "id": 13,
-            "question": "¿Qué se entiende por ANR?",
-            "answer": "Como pregunta intermedia de la entrevista, aproveche para explicar qué es un caso de: Aplicaciónno responde (ANR), así como las medidas que podría tomar para evitar un ANR. Mencione ambas condiciones de activación (una respuesta a una entrada, un receptor de emisión no se ejecuta en un tiempo razonable) y patrones comunes utilizados para diagnosticar ANRs (cálculos largos que ocurren en el hilo principal, llamadas de binder sincrónicas con otro proceso que están tardando mucho en volver)."
-        },
-        {
-            "id": 14,
-            "question": "¿Qué tipo de servicios están disponibles en Android?",
-            "answer": "Un servicio es un componente de una aplicación que no necesita una interfaz de usuario para funcionar (piense en un servicio de música que reproduce música o descarga archivos). Los servicios son mecanismos de trabajo en segundo plano. En tu entrevista, asegúrate de hablar de los tres tipos de servicios:\n- ForegroundService: Operaciones que un usuario puede reconocer\n- BackgroundService: Operaciones inadvertidas para el usuario\n- BoundService: Servicios vinculados que proporcionan una interfaz cliente-servidor para el componente y lasinteracciones.\n\nCuantos más detalles pueda aportar, mejor, por lo que incluir información sobre los hilos frente a los servicios, la intención de los servicios o cómo se inicia un servicio puede ayudar a su caso."
-        },
-        {
-            "id": 15,
-            "question": "Explica los product flavors en Android.",
-            "answer": "Con esta pregunta, el entrevistador quiere saber si sabes diferenciar entre product flavors y build types, ya que a menudo se confunden. Además, explica que la personalización de aplicaciones por parte de los desarrolladores en distintas bases de código es tediosa y provoca errores, por lo que el uso de product flavors es ideal, ya que permite crear variantes de aplicaciones con una única base de código. Menciona estos detalles además de explicar Gradle, ya que crea variantes de tipos de compilación."
-        },
-        {
-            "id": 16,
-            "question": "¿Cómo se gestiona un proceso de larga duración en una aplicación Android?",
-            "answer": "Android define los procesos como de larga ejecución si tardan más de 10 minutos en completarse (como cargas y descargas grandes o tareas especificadas por el usuario). En estos casos, se debe crear un trabajador de larga ejecución con WorkManager (suponiendo que no se puedan fragmentar las cargas de trabajo)."
-        },
-        {
-            "id": 17,
-            "question": "¿Cómo se protege una aplicación Android de la ingeniería inversa?",
-            "answer": "Las preguntas de la entrevista de desarrollo de aplicaciones Android se centrarán en las últimas tendencias y temas. Eso incluirá debates sobre seguridad y privacidad de los datos. Con la popularidad y la naturaleza de código abierto de Android, tienes que ofrecer métodos directos para proteger los datos de los usuarios de la ingeniería inversa. Una empresa siempre quiere mitigar los efectos negativos de los hackeos o las brechas de seguridad, por lo que sus respuestas aquí son importantes.\n\nAsegúrese de que estébien informado al respecto sobre tácticas y herramientas de prevención como la detección de manipulaciones, ProGuard Assistance y SafetyNet. Enumere otras prácticas recomendadas, como el uso de C++ para el código importante, la protección de las credenciales de usuario, el cifrado de bases de datos del lado del servidor y la alteración del proceso de carga de bibliotecas compartidas de Android."
-        },
-        {
-            "id": 18,
-            "question": "¿Qué es Android Jetpack y cuáles son sus bibliotecas?",
-            "answer": "Android Jetpack es un conjunto de herramientas y bibliotecas que pueden ayudarle a crear aplicaciones de alta calidad. Aunque el software ofrece muchas ventajas en lo que respecta a la complejidad de compilación y la escritura de código repetitivo, también aborda varios retos, como la limitación de las fugas de memoria o la gestión de los cambios de configuración. Jetpack ofrece cuatro categorías de componentes (Foundation, Architecture, Behavior y UI) y una serie de bibliotecas. En la entrevista, enumere algunas y explique cómo le han ayudado en el pasado."
-        },
-        {
-            "id": 19,
-            "question": "¿Cuáles son las nuevas actualizaciones y características de Android 13?",
-            "answer": "Android 13 es la última versión del sistema operativo móvil Android, que se espera alcance la estabilidad de la plataforma en junio/agosto de 2022. Android 13 beta ya está disponible y ofrece algunas actualizaciones de calidad de vida y mejoras de privacidad y seguridad. Como desarrollador de Android, tu trabajo consiste en mantenerte a la vanguardia de la innovación continua, por lo que estar al tanto de las próximas actualizaciones es una oportunidad crucial para demostrar tu experiencia."
-        },
-        {
-            "id": 20,
-            "question": "¿Cómo se publica una aplicación Android en Play Store?",
-            "answer": "Las preguntas de las entrevistas de trabajo de Android no siempre son las más difíciles, sino que se basan en cuestiones técnicas. Pero esta pregunta aparentemente sencilla puede incluir muchos factores variados sobre la configuración de tu aplicación y la firma de versiones de lanzamiento. Prepárate para explicar algunas tareas habituales relacionadas con la publicación de aplicaciones."
-        },
-        {
-            "id": 21,
-            "question": "¿Qué se necesita para ejecutar código como Corrutinas?",
-            "answer": "Esta es una pregunta más técnica de la entrevista de Android, y se refiere específicamente a las coroutines de Kotlin. Kotlin crea aplicaciones móviles o del lado del servidor fluidas proporcionando coroutines a nivel de lenguaje, lo que lleva a la programación asíncrona. Demuestre su comprensión de la sintaxis de Kotlin, los hilos y el código secuencial en los componentes de la arquitectura de Android para impresionar a su entrevistador."
-        },
-        {
-            "id": 22,
-            "question": "¿Cómo se prueba una aplicación Android?",
-            "answer": "A medida que avance la entrevista, recibirá preguntas de entrevista para ingenieros de Android de nivel más avanzado. Las preguntas avanzadas son una oportunidad para demostrar sus conocimientos, y también, su capacidad de liderazgo y creatividad. En este caso, establezca algunos fundamentos de las pruebas para empezar (funcionales, de rendimiento, accesibilidad y tipos de pruebas de compatibilidad) y, a continuación, pase a un debate sobre sus enfoques de pruebas preferidos para demostrar su capacidad de resolución de problemas."
-        },
-        {
-            "id": 23,
-            "question": "¿Para qué sirve RxJava?",
-            "answer": "Diferentes paradigmas ayudan a resolver diferentes problemas, y RxJava ayuda a simplificar la programación asíncrona. Como pregunta principal de la entrevista de Android, aquí tiene la oportunidad de explicar su comprensión de las bibliotecas de programación y la programación reactiva funcional en Android. Explica cómo puede tomar la implementación compleja de comportamientos asíncronos y simplificar la programación móvil."
-        },
-        {
-            "id": 24,
-            "question": "¿Cuáles son las ventajas de MVVM?",
-            "answer": "Como enfoque de arquitectura recomendado por Google, MVVM se ha convertido en un estándar en el desarrollo de Android. Esta pregunta le permite mostrar una comprensión de los problemas que resuelve MVVM, el conocimiento de otros estilos como MVC/MVP, los pros y los contras de cada uno, y cómo elegir entre ellos al iniciar un nuevo proyecto."
-        },
-        {
-            "id": 25,
-            "question": "¿Cómo se establecen las dependencias entre las distintas partes de la aplicación?",
-            "answer": "Evitar de forma persistente el \"infierno de las dependencias\" es una de las partes esenciales de un código limpio. El conocimiento de la inversión del patrón de control y sus diferentes implementaciones (ServiceLocator, inyección de dependencia, etc.) puede ayudar a proporcionar soluciones robustas y comprobables. Esté preparado para proporcionar posibles soluciones basadas en Android SDK y librerías de terceros."
-        }
-    ]
-}
+[
+  {
+    "id": 1,
+    "topic": "android",
+    "title": "¿Cuáles son los lenguajes más utilizados en Android?",
+    "answer": "Esta es una de las más sencillas preguntas de la entrevista para desarrolladores de Android, por lo que debes estar preparado con una lista de lenguajes conocidos como Java, Kotlin, C#, Python y Groovy. Para obtener puntos extra, puedes enumerar algunos entornos de desarrollo integrados (IDE) como Eclipse, NetBeans, IntelliJ y Android Studio."
+  },
+  {
+    "id": 2,
+    "topic": "android",
+    "title": "¿Cuál es la arquitectura de Android?",
+    "answer": "La arquitectura de Android consta de cinco componentes principales:\n- Aplicaciones\n- Marco de trabajo de Android\n- Tiempo de ejecución de Android\n- Bibliotecas de Plataformas\n- Kernel de Linux"
+  },
+  {
+    "id": 3,
+    "topic": "android",
+    "title": "¿Cuáles son los principales componentes del marco de aplicaciones de Android?",
+    "answer": "El marco de trabajo de aplicaciones de Android proporciona las bibliotecas subyacentes que permiten a los desarrolladores utilizar los recursos del dispositivo para la creación de aplicaciones. Para una pregunta en una entrevista, prepárate para explicar algunas clases como activity, service, broadcast receiver y content provider."
+  },
+  {
+    "id": 4,
+    "topic": "android",
+    "title": "¿Cuáles son los beneficios y desventajas de Kotlin?",
+    "answer": "Java está establecido y extendido, pero Kotlin sigue creciendo en popularidad. Si le preguntan, utilize esta consulta para mostrar tus conocimientos y habilidades con Kotlin, explicando cómo puede eliminar las NullPointerException (NPE) del código, tiene funciones de desarrollo de aplicaciones multiplataforma y, a menudo, es más legible."
+  },
+  {
+    "id": 5,
+    "topic": "android",
+    "title": "¿Cómo se gestionan los permisos en Android?",
+    "answer": "Los permisos de Android controlan la forma en que los usuarios acceden a los datos confidenciales que contienen las aplicaciones. Como desarrollador de Android, su trabajo consiste en limitar el acceso a la información manteniendo la funcionalidad. Enumera algunas prácticas recomendadas para los permisos de Android, como establecer gestores predeterminados o seleccionar SDK de terceros que también tengan permisos limitados."
+  },
+  {
+    "id": 6,
+    "topic": "android",
+    "title": "¿Cuáles son los modos de lanzamiento disponibles para la actividad en Android?",
+    "answer": "Los modos de lanzamiento le ayudan a poner en marcha actividades con conjuntos específicos de instrucciones y requisitos de navegación asociados. Hay cuatro modos de lanzamiento a los que deberías referirte si te hacen esta pregunta en una entrevista:\n- Standard\n- SingleTop\n- SingleTask\n- SingleInstance\n\nCada modo de lanzamiento tiene su propio papel a la hora de permitir la navegación a través de cualquier configuración posible, por lo que hay que comparar y contrastar las ventajas e inconvenientes para obtener la máxima puntuación."
+  },
+  {
+    "id": 7,
+    "topic": "android",
+    "title": "¿Cuál es la diferencia entre fragmento y actividad?",
+    "answer": "El código de una actividad es mucho más profundo que el de un fragmento. Asegúrate de mencionarle al entrevistador que, debido a la extensión del trabajo, las actividades sólo deben utilizarse para intercambiar pantallas enteras, mientras que los fragmentos se utilizan para todo lo demás. Si es posible, enumera algunos casos de uso en los que casi siempre utilices un fragmento en lugar de una actividad (Por ejemplo: Cuando se utilizan componentes o datos que deben persistir a lo largo de diversas actividades)."
+  },
+  {
+    "id": 8,
+    "topic": "android",
+    "title": "¿Cuáles son los ejemplos de patrones de diseño utilizados en las aplicaciones Android?",
+    "answer": "Los patrones de diseño son plantillas reutilizables que resuelven problemas (piense en un código repetitivo). Cuando se le plantee esta pregunta en una entrevista, asegúrese de describir las categorías comunes de patrones de Android (creacionales, estructurales y de comportamiento) y de exponer algunos casos de uso. Gana algunos puntos extra explicando el cómo resolviste un problema de un proyecto anterior con un patrón de diseño."
+  },
+  {
+    "id": 9,
+    "topic": "android",
+    "title": "¿Qué tipos de patrones arquitectónicos de aplicaciones Android existen?",
+    "answer": "Los patrones de arquitectura se aplican para estructurar un proyecto y hacerlo modular. Hay tres patrones arquitectónicos principales de Android que los desarrolladores utilizan y que deberías mencionar:\n- MVC (Model — View — Controller)\n- MVP (Model — View — Presenter)\n- MVVM (Model — View — ViewModel)\n\nDado que cada patrón arquitectónico implica una gran cantidad de información, considérelo aun máspara ampliar las preguntas de codificacion que le vayan surgiendo al entrevistador. Ofrezca detalles siempre que sea posible, pero utiliza las preguntas para demostrar tus amplios conocimientos de programación en Android."
+  },
+  {
+    "id": 10,
+    "topic": "android",
+    "title": "¿Qué bibliotecas adicionales utiliza en el desarrollo de aplicaciones para Android?",
+    "answer": "Las bibliotecas te permiten aprovechar el trabajo de otros desarrolladores para mejorar el rendimiento a la hora de crear aplicaciones. Hay varias bibliotecas populares de las que puedes hablar (Glide, Retrofit, Picasso, Dagger, Koin), pero aprovecha la oportunidad para explicar la biblioteca que prefieres o que has utilizado en el pasado con gran éxito."
+  },
+  {
+    "id": 11,
+    "topic": "android",
+    "title": "¿Qué es PendingIntent en Android?",
+    "answer": "Un PendingIntent pasa una intención futura a una aplicación diferente que realizará la ejecución. Los PendingIntents son una parte crucial del marco de trabajo de Android porque pueden especificar acciones a otra aplicación. Es bueno si su respuesta a esta pregunta de la entrevista sobre codigo en Android toca los detalles de implementación y los nuevos cambios en Android 12 con respecto a la mutabilidad."
+  },
+  {
+    "id": 12,
+    "topic": "android",
+    "title": "¿Qué es un proveedor de contenidos en Android?",
+    "answer": "Un proveedor de contenidos controla el acceso a los datos de una aplicación. Otras aplicaciones utilizarán un proveedor de objeto al cliente, creando una interfaz para gestionar la comunicación. Como pregunta de programación, prepárate para explicar cómo accederías a los datos de un proveedor de contenidos, además de proporcionar información sobre la creación de un proveedor de contenidos dentro de tu propia aplicación. Dado que el acceso a los datos puede bloquear un hilo principal, ten en cuenta cómo realizarías las consultas de datos en un hilo independiente."
+  },
+  {
+    "id": 13,
+    "topic": "android",
+    "title": "¿Qué se entiende por ANR?",
+    "answer": "Como pregunta intermedia de la entrevista, aproveche para explicar qué es un caso de: Aplicaciónno responde (ANR), así como las medidas que podría tomar para evitar un ANR. Mencione ambas condiciones de activación (una respuesta a una entrada, un receptor de emisión no se ejecuta en un tiempo razonable) y patrones comunes utilizados para diagnosticar ANRs (cálculos largos que ocurren en el hilo principal, llamadas de binder sincrónicas con otro proceso que están tardando mucho en volver)."
+  },
+  {
+    "id": 14,
+    "topic": "android",
+    "title": "¿Qué tipo de servicios están disponibles en Android?",
+    "answer": "Un servicio es un componente de una aplicación que no necesita una interfaz de usuario para funcionar (piense en un servicio de música que reproduce música o descarga archivos). Los servicios son mecanismos de trabajo en segundo plano. En tu entrevista, asegúrate de hablar de los tres tipos de servicios:\n- ForegroundService: Operaciones que un usuario puede reconocer\n- BackgroundService: Operaciones inadvertidas para el usuario\n- BoundService: Servicios vinculados que proporcionan una interfaz cliente-servidor para el componente y lasinteracciones.\n\nCuantos más detalles pueda aportar, mejor, por lo que incluir información sobre los hilos frente a los servicios, la intención de los servicios o cómo se inicia un servicio puede ayudar a su caso."
+  },
+  {
+    "id": 15,
+    "topic": "android",
+    "title": "Explica los product flavors en Android.",
+    "answer": "Con esta pregunta, el entrevistador quiere saber si sabes diferenciar entre product flavors y build types, ya que a menudo se confunden. Además, explica que la personalización de aplicaciones por parte de los desarrolladores en distintas bases de código es tediosa y provoca errores, por lo que el uso de product flavors es ideal, ya que permite crear variantes de aplicaciones con una única base de código. Menciona estos detalles además de explicar Gradle, ya que crea variantes de tipos de compilación."
+  },
+  {
+    "id": 16,
+    "topic": "android",
+    "title": "¿Cómo se gestiona un proceso de larga duración en una aplicación Android?",
+    "answer": "Android define los procesos como de larga ejecución si tardan más de 10 minutos en completarse (como cargas y descargas grandes o tareas especificadas por el usuario). En estos casos, se debe crear un trabajador de larga ejecución con WorkManager (suponiendo que no se puedan fragmentar las cargas de trabajo)."
+  },
+  {
+    "id": 17,
+    "topic": "android",
+    "title": "¿Cómo se protege una aplicación Android de la ingeniería inversa?",
+    "answer": "Las preguntas de la entrevista de desarrollo de aplicaciones Android se centrarán en las últimas tendencias y temas. Eso incluirá debates sobre seguridad y privacidad de los datos. Con la popularidad y la naturaleza de código abierto de Android, tienes que ofrecer métodos directos para proteger los datos de los usuarios de la ingeniería inversa. Una empresa siempre quiere mitigar los efectos negativos de los hackeos o las brechas de seguridad, por lo que sus respuestas aquí son importantes.\n\nAsegúrese de que estébien informado al respecto sobre tácticas y herramientas de prevención como la detección de manipulaciones, ProGuard Assistance y SafetyNet. Enumere otras prácticas recomendadas, como el uso de C++ para el código importante, la protección de las credenciales de usuario, el cifrado de bases de datos del lado del servidor y la alteración del proceso de carga de bibliotecas compartidas de Android."
+  },
+  {
+    "id": 18,
+    "topic": "android",
+    "title": "¿Qué es Android Jetpack y cuáles son sus bibliotecas?",
+    "answer": "Android Jetpack es un conjunto de herramientas y bibliotecas que pueden ayudarle a crear aplicaciones de alta calidad. Aunque el software ofrece muchas ventajas en lo que respecta a la complejidad de compilación y la escritura de código repetitivo, también aborda varios retos, como la limitación de las fugas de memoria o la gestión de los cambios de configuración. Jetpack ofrece cuatro categorías de componentes (Foundation, Architecture, Behavior y UI) y una serie de bibliotecas. En la entrevista, enumere algunas y explique cómo le han ayudado en el pasado."
+  },
+  {
+    "id": 19,
+    "topic": "android",
+    "title": "¿Cuáles son las nuevas actualizaciones y características de Android 13?",
+    "answer": "Android 13 es la última versión del sistema operativo móvil Android, que se espera alcance la estabilidad de la plataforma en junio/agosto de 2022. Android 13 beta ya está disponible y ofrece algunas actualizaciones de calidad de vida y mejoras de privacidad y seguridad. Como desarrollador de Android, tu trabajo consiste en mantenerte a la vanguardia de la innovación continua, por lo que estar al tanto de las próximas actualizaciones es una oportunidad crucial para demostrar tu experiencia."
+  },
+  {
+    "id": 20,
+    "topic": "android",
+    "title": "¿Cómo se publica una aplicación Android en Play Store?",
+    "answer": "Las preguntas de las entrevistas de trabajo de Android no siempre son las más difíciles, sino que se basan en cuestiones técnicas. Pero esta pregunta aparentemente sencilla puede incluir muchos factores variados sobre la configuración de tu aplicación y la firma de versiones de lanzamiento. Prepárate para explicar algunas tareas habituales relacionadas con la publicación de aplicaciones."
+  },
+  {
+    "id": 21,
+    "topic": "android",
+    "title": "¿Qué se necesita para ejecutar código como Corrutinas?",
+    "answer": "Esta es una pregunta más técnica de la entrevista de Android, y se refiere específicamente a las coroutines de Kotlin. Kotlin crea aplicaciones móviles o del lado del servidor fluidas proporcionando coroutines a nivel de lenguaje, lo que lleva a la programación asíncrona. Demuestre su comprensión de la sintaxis de Kotlin, los hilos y el código secuencial en los componentes de la arquitectura de Android para impresionar a su entrevistador."
+  },
+  {
+    "id": 22,
+    "topic": "android",
+    "title": "¿Cómo se prueba una aplicación Android?",
+    "answer": "A medida que avance la entrevista, recibirá preguntas de entrevista para ingenieros de Android de nivel más avanzado. Las preguntas avanzadas son una oportunidad para demostrar sus conocimientos, y también, su capacidad de liderazgo y creatividad. En este caso, establezca algunos fundamentos de las pruebas para empezar (funcionales, de rendimiento, accesibilidad y tipos de pruebas de compatibilidad) y, a continuación, pase a un debate sobre sus enfoques de pruebas preferidos para demostrar su capacidad de resolución de problemas."
+  },
+  {
+    "id": 23,
+    "topic": "android",
+    "title": "¿Para qué sirve RxJava?",
+    "answer": "Diferentes paradigmas ayudan a resolver diferentes problemas, y RxJava ayuda a simplificar la programación asíncrona. Como pregunta principal de la entrevista de Android, aquí tiene la oportunidad de explicar su comprensión de las bibliotecas de programación y la programación reactiva funcional en Android. Explica cómo puede tomar la implementación compleja de comportamientos asíncronos y simplificar la programación móvil."
+  },
+  {
+    "id": 24,
+    "topic": "android",
+    "title": "¿Cuáles son las ventajas de MVVM?",
+    "answer": "Como enfoque de arquitectura recomendado por Google, MVVM se ha convertido en un estándar en el desarrollo de Android. Esta pregunta le permite mostrar una comprensión de los problemas que resuelve MVVM, el conocimiento de otros estilos como MVC/MVP, los pros y los contras de cada uno, y cómo elegir entre ellos al iniciar un nuevo proyecto."
+  },
+  {
+    "id": 25,
+    "topic": "android",
+    "title": "¿Cómo se establecen las dependencias entre las distintas partes de la aplicación?",
+    "answer": "Evitar de forma persistente el \"infierno de las dependencias\" es una de las partes esenciales de un código limpio. El conocimiento de la inversión del patrón de control y sus diferentes implementaciones (ServiceLocator, inyección de dependencia, etc.) puede ayudar a proporcionar soluciones robustas y comprobables. Esté preparado para proporcionar posibles soluciones basadas en Android SDK y librerías de terceros."
+  }
+]
