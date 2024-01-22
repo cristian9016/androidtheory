@@ -13,8 +13,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.androidtheory.ui.questionview.QuestionView
-import com.example.androidtheory.ui.topicpicker.TopicPickerView
 import com.example.androidtheory.ui.theme.AndroidTheoryTheme
+import com.example.androidtheory.ui.topicpicker.TopicPickerView
 
 class MainActivity : ComponentActivity() {
 
@@ -40,7 +40,12 @@ class MainActivity : ComponentActivity() {
                             }
                         }
                         composable("questions/{topic}") { backStackEntry ->
-                            QuestionView(topic = backStackEntry.arguments?.getString("topic") ?: "")
+                            QuestionView(
+                                modifier = Modifier.fillMaxSize(),
+                                topic = backStackEntry.arguments?.getString("topic") ?: "",
+                            ) {
+                                navController.navigateUp()
+                            }
                         }
                     }
                 }

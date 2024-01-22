@@ -27,7 +27,7 @@ android {
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
+                "proguard-rules.pro",
             )
         }
     }
@@ -69,19 +69,25 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
-    //room database
+    // room database
     val room_version = "2.6.1"
     implementation("androidx.room:room-runtime:$room_version")
     annotationProcessor("androidx.room:room-compiler:$room_version")
     implementation("androidx.room:room-ktx:$room_version")
     kapt("androidx.room:room-compiler:$room_version")
 
-    //compose navigation
-    implementation ("androidx.navigation:navigation-compose:2.7.6")
+    // compose navigation
+    implementation("androidx.navigation:navigation-compose:2.7.6")
 
-    //viewmodel compose
+    // viewmodel compose
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
 
-    //Gson
+    // Gson
     implementation("com.google.code.gson:gson:2.10.1")
+
+    // data store
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
+
+    //coil
+    implementation("io.coil-kt:coil-compose:2.5.0")
 }

@@ -10,4 +10,5 @@ data class Question(
     val topic: String,
     val title: String,
     val answer: String,
+    val image: String?
 )
